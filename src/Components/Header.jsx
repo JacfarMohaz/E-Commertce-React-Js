@@ -12,8 +12,8 @@ function Header() {
         setIsOpen(false)
     }
 
-    return <div className="bg-primaryColor flex p-5 text-secondaryColor justify-between">
-        <h1 className="text-xl sm:text-4xl font-bold">E-Commerce</h1>
+    return <div className="bg-primaryColor flex p-5 text-secondaryColor fixed w-full top-0 justify-between">
+        <h1 className="text-xl sm:text-4xl font-bold pt-2">JM9</h1>
         <i onClick={HandlIsOpen} style={{display: isOpen === true ? "none" : ""}} class="fa-solid fa-bars absolute right-2 text-secenderyColor text-4xl sm:hidden"></i>
         <i onClick={HandlClose} style={{display: isOpen === true ? "block" : ""}} class="fa-solid fa-xmark text-4xl absolute right-2 hidden"></i>
 
@@ -24,7 +24,7 @@ function Header() {
         </ul>
 
         <ol>
-            <li className="text-4xl"> <i class="fa-solid fa-cart-shopping mr-10"></i> </li>
+            <li className="text-4xl"> <i class="fa-solid fa-cart-shopping mr-16"><span className="text-secondaryColor text-xl absolute top-2">(0)</span></i> </li>
         </ol>
     </div>
 }

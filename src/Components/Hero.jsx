@@ -1,5 +1,5 @@
 function Hero() {
-    return <div className="h-[400px] sm:px-20 px-10  sm:flex justify-between">
+    return <div className="h-[400px] sm:px-20 px-10  sm:flex justify-between sm:mt-20 mt-28">
 
         <div className="mt-20 sm:w-[580px] w-[350px]">
             <h1 className="text-5xl font-bold">Best Place For Shopping In Your Area</h1>
