@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux"
 import Header from "../Components/Header"
 import { calculateTotalPrice, removeFromCart } from "../redux/reducer/carts"
 import { useEffect } from "react"
+import Footer from "../Components/Footer"
 
 function Cart() {
 
@@ -62,6 +63,7 @@ function Cart() {
             </div>
 
         </div>
+        <Footer />
     </div>
 }
 
